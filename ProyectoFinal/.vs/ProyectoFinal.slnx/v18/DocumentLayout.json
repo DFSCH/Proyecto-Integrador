@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|c:\\users\\dfsch\\downloads\\proyectofinalv4\\proyectofinal\\datos\\persistenciausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:datos\\persistenciausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\vista\\formcambiarclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formcambiarclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|c:\\users\\dfsch\\downloads\\proyectofinalv4\\proyectofinal\\vista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|c:\\users\\dfsch\\downloads\\proyectofinalv4\\proyectofinal\\vista\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|c:\\users\\dfsch\\downloads\\proyectofinalv4\\proyectofinal\\vista\\formcambiarclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formcambiarclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|c:\\users\\dfsch\\downloads\\proyectofinalv4\\proyectofinal\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\vista\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|c:\\users\\dfsch\\downloads\\proyectofinalv4\\proyectofinal\\vista\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|c:\\users\\dfsch\\downloads\\proyectofinalv4\\proyectofinal\\vista\\formregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\vista\\formregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\vista\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\vista\\formadministractivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formadministractivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|c:\\users\\dfsch\\downloads\\proyectofinalv4\\proyectofinal\\vista\\formadministractivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AB5F8E-953E-54CA-26FD-1B08C62EB606}|ProyectoFinal.csproj|solutionrelative:vista\\formadministractivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersistenciaUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\DATOS\\PersistenciaUsuario.cs",
+              "RelativeDocumentMoniker": "DATOS\\PersistenciaUsuario.cs",
+              "ToolTip": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\DATOS\\PersistenciaUsuario.cs",
+              "RelativeToolTip": "DATOS\\PersistenciaUsuario.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:06:29.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\MODELO\\Usuario.cs",
+              "RelativeDocumentMoniker": "MODELO\\Usuario.cs",
+              "ToolTip": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\MODELO\\Usuario.cs",
+              "RelativeToolTip": "MODELO\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T02:39:53.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormCambiarClave.cs",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormCambiarClave.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormCambiarClave.cs",
+              "ToolTip": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormCambiarClave.cs",
+              "RelativeToolTip": "VISTA\\FormCambiarClave.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T05:04:05.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormCambiarClave.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormCambiarClave.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormCambiarClave.cs",
+              "ToolTip": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormCambiarClave.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VISTA\\FormCambiarClave.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T04:56:08.832Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VISTA\\FormPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T04:40:50.227Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormUsuario.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormUsuario.cs",
+              "ToolTip": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormUsuario.cs",
+              "RelativeToolTip": "VISTA\\FormUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T11:11:54.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormUsuario.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormUsuario.cs",
+              "ToolTip": "C:\\Users\\dfsch\\OneDrive\\Documents\\GitHub\\programacion3\\ProyectoFinal\\VISTA\\FormUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\programacion3\\ProyectoFinal\\VISTA\\FormUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:32:28.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormAdministractivos.cs",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormAdministractivos.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormAdministractivos.cs",
+              "ToolTip": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormAdministractivos.cs",
+              "RelativeToolTip": "VISTA\\FormAdministractivos.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T02:20:13.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormAdministractivos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormAdministractivos.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormAdministractivos.cs",
+              "ToolTip": "C:\\Users\\dfsch\\OneDrive\\Documents\\GitHub\\programacion3\\ProyectoFinal\\VISTA\\FormAdministractivos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\programacion3\\ProyectoFinal\\VISTA\\FormAdministractivos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T21:54:18.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormRegistrar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormRegistrar.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormRegistrar.cs",
+              "ToolTip": "C:\\Users\\dfsch\\OneDrive\\Documents\\GitHub\\programacion3\\ProyectoFinal\\VISTA\\FormRegistrar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\programacion3\\ProyectoFinal\\VISTA\\FormRegistrar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T22:19:40.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormLogin.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormLogin.cs",
+              "RelativeToolTip": "VISTA\\FormLogin.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T21:58:27.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormLogin.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\dfsch\\OneDrive\\Documents\\GitHub\\programacion3\\ProyectoFinal\\VISTA\\FormLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\programacion3\\ProyectoFinal\\VISTA\\FormLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T20:52:33.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormRegistrar.cs",
+              "DocumentMoniker": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormRegistrar.cs",
+              "RelativeDocumentMoniker": "VISTA\\FormRegistrar.cs",
+              "ToolTip": "C:\\Users\\dfsch\\Downloads\\ProyectoFinalv4\\ProyectoFinal\\VISTA\\FormRegistrar.cs",
+              "RelativeToolTip": "VISTA\\FormRegistrar.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T13:40:11.757Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
