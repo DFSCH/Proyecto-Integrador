@@ -161,9 +161,9 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(870, 43);
+            btnEliminar.Location = new Point(851, 43);
             btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(94, 29);
+            btnEliminar.Size = new Size(113, 34);
             btnEliminar.TabIndex = 23;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;

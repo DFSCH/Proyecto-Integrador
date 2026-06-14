@@ -24,6 +24,7 @@ namespace Sistema_de_Calculo.VISTA
         /// Se dispara cuando el usuario pulsa "Usar en cotización →".
         /// El padre puede suscribirse para recibir el volumen calculado.
         /// </summary>
+        
         public event EventHandler<double>? VolumenListo;
 
         // ── Constructor ───────────────────────────────────────────────
@@ -77,12 +78,9 @@ namespace Sistema_de_Calculo.VISTA
             foreach (DataGridViewRow row in dgvPuntos.Rows)
             {
                 if (row.IsNewRow) continue;
-                if (double.TryParse(row.Cells["colX"].Value?.ToString(),
-                        NumberStyles.Any, CultureInfo.InvariantCulture, out double x) &&
-                    double.TryParse(row.Cells["colY"].Value?.ToString(),
-                        NumberStyles.Any, CultureInfo.InvariantCulture, out double y) &&
-                    double.TryParse(row.Cells["colZ"].Value?.ToString(),
-                        NumberStyles.Any, CultureInfo.InvariantCulture, out double z))
+                if (TryLeerCelda(row.Cells["colX"].Value, out double x) &&
+                    TryLeerCelda(row.Cells["colY"].Value, out double y) &&
+                    TryLeerCelda(row.Cells["colZ"].Value, out double z))
                 {
                     lista.Add(new PuntoTerreno(x, y, z));
                 }
@@ -90,18 +88,29 @@ namespace Sistema_de_Calculo.VISTA
             return lista;
         }
 
+        private static bool TryLeerCelda(object? valor, out double resultado)
+        {
+            resultado = 0;
+            if (valor == null) return false;
+
+            // Si ya es número (que es el caso al usar Rows.Add con doubles), úsalo tal cual
+            if (valor is double d) { resultado = d; return true; }
+            if (valor is float f) { resultado = f; return true; }
+            if (valor is int n) { resultado = n; return true; }
+
+            // Si viene como texto, normaliza la coma a punto y parsea invariante
+            string s = valor.ToString()!.Trim().Replace(',', '.');
+            return double.TryParse(s, NumberStyles.Any, CultureInfo.InvariantCulture, out resultado);
+        }
+
         // ─────────────────────────────────────────────────────────────
         // BOTÓN: + Agregar
         // ─────────────────────────────────────────────────────────────
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            string strX = txtX.Text.Trim().Replace(',', '.');
-            string strY = txtY.Text.Trim().Replace(',', '.');
-            string strZ = txtZ.Text.Trim().Replace(',', '.');
-
-            if (!double.TryParse(strX, NumberStyles.Any, CultureInfo.InvariantCulture, out double x) ||
-                !double.TryParse(strY, NumberStyles.Any, CultureInfo.InvariantCulture, out double y) ||
-                !double.TryParse(strZ, NumberStyles.Any, CultureInfo.InvariantCulture, out double z))
+            if (!TryLeerCelda(txtX.Text, out double x) ||
+            !TryLeerCelda(txtY.Text, out double y) ||
+            !TryLeerCelda(txtZ.Text, out double z))
             {
                 MessageBox.Show("Ingresa valores numéricos válidos.", "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -127,6 +136,7 @@ namespace Sistema_de_Calculo.VISTA
         // ─────────────────────────────────────────────────────────────
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+            
             var pts = ObtenerPuntos();
             if (pts.Count < 3)
             {

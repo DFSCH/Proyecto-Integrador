@@ -88,7 +88,7 @@
             card2.Controls.Add(btnCalcular);
             card2.Location = new Point(8, 412);
             card2.Name = "card2";
-            card2.Size = new Size(410, 120);
+            card2.Size = new Size(410, 141);
             card2.TabIndex = 8;
             // 
             // lblCard2
@@ -132,7 +132,7 @@
             card3.Controls.Add(lblCard3);
             card3.Controls.Add(lblResultado);
             card3.Controls.Add(btnUsarEnCot);
-            card3.Location = new Point(8, 538);
+            card3.Location = new Point(8, 559);
             card3.Name = "card3";
             card3.Size = new Size(410, 109);
             card3.TabIndex = 9;

@@ -106,7 +106,7 @@ namespace Sistema_de_Calculo.VISTA
         private void btnMateriales_Click(object sender, EventArgs e)
         {
             SetNavActivo(btnMateriales);
-            Navegar(new PanelMateriales_Usuario());
+            Navegar(new PanelMateriales());
         }
 
         private void btnUsuario_Click(object sender, EventArgs e)

@@ -1,5 +1,6 @@
 ﻿using Sistema_de_Calculo.CONTROLADOR;
 using Sistema_de_Calculo.UTILIDADES;
+using Sistema_de_Calculo.VIEW;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -55,26 +56,14 @@ namespace Sistema_de_Calculo.VISTA
         // ── Nuevo usuario ────────────────────────────────────────────
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            using var frm = new Form
-            {
-                Text = "Registrar nuevo usuario",
-                Size = new Size(460, 470),
-                StartPosition = FormStartPosition.CenterParent,
-                FormBorderStyle = FormBorderStyle.FixedDialog,
-                MaximizeBox = false,
-                MinimizeBox = false
-            };
+            using var frm = new FormNewUser();
 
-            var panel = new PanelNuevoUsuario { Dock = DockStyle.Fill };
-
-            // Cuando se guarda con éxito, recargar tabla y cerrar el form
-            panel.UsuarioGuardado += (s, ev) =>
+            frm.UsuarioGuardado += (s, ev) =>
             {
                 CargarTabla();
-                frm.Close();
+                frm.DialogResult = DialogResult.OK;
             };
 
-            frm.Controls.Add(panel);
             frm.ShowDialog(this);
         }
 

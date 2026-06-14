@@ -46,7 +46,7 @@
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             lblTitulo.ForeColor = Color.FromArgb(30, 30, 30);
-            lblTitulo.Location = new Point(211, 79);
+            lblTitulo.Location = new Point(211, 97);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(213, 35);
             lblTitulo.TabIndex = 4;
@@ -56,12 +56,11 @@
             // 
             lblSub.AutoSize = true;
             lblSub.ForeColor = Color.Gray;
-            lblSub.Location = new Point(154, 114);
+            lblSub.Location = new Point(151, 132);
             lblSub.Name = "lblSub";
             lblSub.Size = new Size(310, 20);
             lblSub.TabIndex = 5;
             lblSub.Text = "Sistema de Cotización · Movimiento de Tierra";
-         
             // 
             // pnlCard
             // 

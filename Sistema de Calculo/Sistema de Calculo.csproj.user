@@ -7,6 +7,12 @@
     <Compile Update="VIEW\FormMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="VIEW\FormNewMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VIEW\FormNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="VIEW\PanelCliente.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -16,19 +22,13 @@
     <Compile Update="VIEW\PanelCotizacion.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="VIEW\PanelMateriales_Usuario.cs">
+    <Compile Update="VIEW\PanelMateriales.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="VIEW\PanelNuevaCotizacion.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="VIEW\PanelNuevoCliente.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="VIEW\PanelNuevoMaterial.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="VIEW\PanelNuevoUsuario.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="VIEW\PanelResetearContraseña.cs">

@@ -67,8 +67,8 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.Controls.Add(pnlContent);
-            splitContainer1.Size = new Size(1259, 708);
-            splitContainer1.SplitterDistance = 260;
+            splitContainer1.Size = new Size(1390, 708);
+            splitContainer1.SplitterDistance = 287;
             splitContainer1.TabIndex = 0;
             // 
             // pnlSidebar
@@ -262,14 +262,14 @@
             pnlContent.Location = new Point(0, 0);
             pnlContent.Name = "pnlContent";
             pnlContent.Padding = new Padding(20);
-            pnlContent.Size = new Size(995, 708);
+            pnlContent.Size = new Size(1099, 708);
             pnlContent.TabIndex = 2;
             // 
             // FormMenu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1259, 708);
+            ClientSize = new Size(1390, 708);
             Controls.Add(splitContainer1);
             Name = "FormMenu";
             Text = "FormMenu";
