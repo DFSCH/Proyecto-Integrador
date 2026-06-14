@@ -1,0 +1,4 @@
+﻿Id,Numero,CotizacionId,ClienteId,Estado,Fecha
+1,FAC-0001,1,1,activa,2026-06-12 02:57:40
+2,FAC-0002,2,1,activa,2026-06-12 06:18:05
+3,FAC-0003,5,3,inactiva,2026-06-12 16:30:43

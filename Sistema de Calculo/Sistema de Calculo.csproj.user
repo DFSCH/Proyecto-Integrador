@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="VIEW\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VIEW\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelFacturas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelCotizacion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelMateriales_Usuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelNuevaCotizacion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelNuevoCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelNuevoMaterial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelNuevoUsuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelResetearContraseña.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelUsuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelVolumen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
