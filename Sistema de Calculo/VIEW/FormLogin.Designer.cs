@@ -38,7 +38,9 @@
             txtPw = new TextBox();
             lblError = new Label();
             btnLogin = new Button();
+            pictureBox1 = new PictureBox();
             pnlCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // lblTitulo
@@ -46,7 +48,7 @@
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             lblTitulo.ForeColor = Color.FromArgb(30, 30, 30);
-            lblTitulo.Location = new Point(211, 97);
+            lblTitulo.Location = new Point(196, 144);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(213, 35);
             lblTitulo.TabIndex = 4;
@@ -56,7 +58,7 @@
             // 
             lblSub.AutoSize = true;
             lblSub.ForeColor = Color.Gray;
-            lblSub.Location = new Point(151, 132);
+            lblSub.Location = new Point(136, 179);
             lblSub.Name = "lblSub";
             lblSub.Size = new Size(310, 20);
             lblSub.TabIndex = 5;
@@ -72,7 +74,7 @@
             pnlCard.Controls.Add(txtPw);
             pnlCard.Controls.Add(lblError);
             pnlCard.Controls.Add(btnLogin);
-            pnlCard.Location = new Point(93, 183);
+            pnlCard.Location = new Point(78, 230);
             pnlCard.Name = "pnlCard";
             pnlCard.Size = new Size(437, 337);
             pnlCard.TabIndex = 6;
@@ -151,11 +153,22 @@
             btnLogin.UseVisualStyleBackColor = false;
             btnLogin.Click += btnLogin_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Gemini_Generated_Image_61edvm61edvm61ed;
+            pictureBox1.Location = new Point(196, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(228, 138);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
+            // 
             // FormLogin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(595, 595);
+            Controls.Add(pictureBox1);
             Controls.Add(lblTitulo);
             Controls.Add(lblSub);
             Controls.Add(pnlCard);
@@ -163,6 +176,7 @@
             Text = "Form1";
             pnlCard.ResumeLayout(false);
             pnlCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -179,5 +193,6 @@
         private Label lblError;
         private Button btnLogin;
         private Button btnVerClave;
+        private PictureBox pictureBox1;
     }
 }

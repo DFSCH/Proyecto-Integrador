@@ -5,7 +5,7 @@ namespace Sistema_de_Calculo
 {
     public partial class FormLogin : Form
     {
-        private readonly UsuarioController _ctrl = new();
+        private readonly UserController _ctrl = new();
 
         public FormLogin()
         {

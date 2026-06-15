@@ -12,16 +12,15 @@ namespace Sistema_de_Calculo.VISTA
 {
     public partial class PanelFacturas : UserControl
     {
-        private readonly DocumentoController _docCtrl = new();
-        private readonly ClienteController _cliCtrl = new();
+        private readonly DocumentController _docCtrl = new();
+        private readonly ClientController _cliCtrl = new();
         private readonly MaterialController _matCtrl = new();
 
         public PanelFacturas()
         {
             InitializeComponent();
             // Conectar checkboxes con datepickers
-            chkDesde.CheckedChanged += (s, e) => dtpDesde.Enabled = chkDesde.Checked;
-            chkHasta.CheckedChanged += (s, e) => dtpHasta.Enabled = chkHasta.Checked;
+            
             // Selección inicial del combo
             cmbFiltroEstado.SelectedIndex = 0;
             btnEstado.Enabled = Sesion.EsAdmin;
@@ -34,10 +33,9 @@ namespace Sistema_de_Calculo.VISTA
 
             string? estado = cmbFiltroEstado.SelectedItem?.ToString() == "Todos"
                 ? null : cmbFiltroEstado.SelectedItem?.ToString();
-            DateTime? desde = chkDesde.Checked ? dtpDesde.Value : null;
-            DateTime? hasta = chkHasta.Checked ? dtpHasta.Value : null;
+           
 
-            var facs = _docCtrl.FiltrarFacturas(txtFiltroCliente.Text, estado, desde, hasta);
+            var facs = _docCtrl.FiltrarFacturas(txtFiltroCliente.Text);
             var clientes = _cliCtrl.ObtenerTodos();
             var cots = _docCtrl.ObtenerCotizaciones();
 
@@ -76,8 +74,7 @@ namespace Sistema_de_Calculo.VISTA
         {
             txtFiltroCliente.Clear();
             cmbFiltroEstado.SelectedIndex = 0;
-            chkDesde.Checked = false;
-            chkHasta.Checked = false;
+        
             Cargar();
         }
 

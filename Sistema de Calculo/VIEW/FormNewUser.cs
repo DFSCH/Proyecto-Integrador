@@ -11,7 +11,7 @@ namespace Sistema_de_Calculo.VIEW
 {
     public partial class FormNewUser : Form
     {
-        private readonly UsuarioController _ctrl = new();
+        private readonly UserController _ctrl = new();
         // Evento para notificar al PanelUsuario que recargue la tabla
         public event EventHandler? UsuarioGuardado;
         public FormNewUser()

@@ -1,6 +1,6 @@
 ﻿Id,Nombre,Correo,PasswordHash,Rol,Activo,FechaCreacion
-1,Administrador,admin@sistema.com,$2a$11$uyGTqanLJ/lvPPinRi3IouFg8UOsPKK9m2x9X/Z6cYheuHYzttG1q,admin,true,2026-06-12 02:32:20
+1,Administrador,admin@sistema.com,$2a$11$D/1V.ID2B2dj3B1VklfQnOgZnp/AUimdJ4hu8Z3bhFuwUNSmkxPyG,admin,true,2026-06-12 02:32:20
 2,Diego,dfsch@gmail.com,$2a$11$R7WIUU8t4jeGaRzE7mXjm.dE3iveQQBxnWgYcs903.Y/Z0XqEUJXK,admin,true,2026-06-12 02:56:38
-3,juan,Choguan@gmail.com,$2a$11$x0ZpAu924js3vR/UvQhGd.VLyZ7COQ8HEe/uzABQ/V9zvTO1ZSnWy,usuario,true,2026-06-12 06:19:29
+3,juan,Choguan@gmail.com,$2a$11$qaMQDh1AzG6VLbv6AOi1nuDX6X91R52rpB6VO3fFN1LLVAfRSal4K,usuario,true,2026-06-12 06:19:29
 4,Kalet,kalet@gmail.com,$2a$11$.4UGc9TCzN4dpfSHOnu1Oed6kiBZw1nooVHYvxe22VQCnbydf6q82,usuario,true,2026-06-12 06:57:40
 5,maza,maza@gmail.com,$2a$11$qyu8RMuYZI1p4iXRCvBN5eL40Ukt87Mmk.VtGZiAUqByjvuTcNCDG,usuario,true,2026-06-12 16:23:46

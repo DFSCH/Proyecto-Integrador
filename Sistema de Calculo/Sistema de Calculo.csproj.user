@@ -7,37 +7,37 @@
     <Compile Update="VIEW\FormMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="VIEW\FormNewClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="VIEW\FormNewMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VIEW\Formnewquote.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="VIEW\FormNewUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="VIEW\PanelCliente.cs">
+    <Compile Update="VIEW\Formresetpassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VIEW\PanelClient.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="VIEW\PanelFacturas.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="VIEW\PanelCotizacion.cs">
+    <Compile Update="VIEW\Panelquotation.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="VIEW\PanelMateriales.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="VIEW\PanelNuevaCotizacion.cs">
+    <Compile Update="VIEW\PanelUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="VIEW\PanelNuevoCliente.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="VIEW\PanelResetearContraseña.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="VIEW\PanelUsuario.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="VIEW\PanelVolumen.cs">
+    <Compile Update="VIEW\PanelVolume.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

@@ -31,10 +31,6 @@
             pnlFiltros = new Panel();
             txtFiltroCliente = new TextBox();
             cmbFiltroEstado = new ComboBox();
-            chkDesde = new CheckBox();
-            dtpDesde = new DateTimePicker();
-            chkHasta = new CheckBox();
-            dtpHasta = new DateTimePicker();
             btnFiltrar = new Button();
             btnLimpiar = new Button();
             lblTit = new Label();
@@ -57,10 +53,6 @@
             pnlFiltros.BackColor = Color.White;
             pnlFiltros.Controls.Add(txtFiltroCliente);
             pnlFiltros.Controls.Add(cmbFiltroEstado);
-            pnlFiltros.Controls.Add(chkDesde);
-            pnlFiltros.Controls.Add(dtpDesde);
-            pnlFiltros.Controls.Add(chkHasta);
-            pnlFiltros.Controls.Add(dtpHasta);
             pnlFiltros.Controls.Add(btnFiltrar);
             pnlFiltros.Controls.Add(btnLimpiar);
             pnlFiltros.Location = new Point(27, 34);
@@ -85,42 +77,6 @@
             cmbFiltroEstado.Name = "cmbFiltroEstado";
             cmbFiltroEstado.Size = new Size(110, 28);
             cmbFiltroEstado.TabIndex = 1;
-            // 
-            // chkDesde
-            // 
-            chkDesde.AutoSize = true;
-            chkDesde.Location = new Point(312, 11);
-            chkDesde.Name = "chkDesde";
-            chkDesde.Size = new Size(73, 24);
-            chkDesde.TabIndex = 2;
-            chkDesde.Text = "Desde";
-            // 
-            // dtpDesde
-            // 
-            dtpDesde.Enabled = false;
-            dtpDesde.Format = DateTimePickerFormat.Short;
-            dtpDesde.Location = new Point(390, 9);
-            dtpDesde.Name = "dtpDesde";
-            dtpDesde.Size = new Size(120, 27);
-            dtpDesde.TabIndex = 3;
-            // 
-            // chkHasta
-            // 
-            chkHasta.AutoSize = true;
-            chkHasta.Location = new Point(516, 11);
-            chkHasta.Name = "chkHasta";
-            chkHasta.Size = new Size(69, 24);
-            chkHasta.TabIndex = 4;
-            chkHasta.Text = "Hasta";
-            // 
-            // dtpHasta
-            // 
-            dtpHasta.Enabled = false;
-            dtpHasta.Format = DateTimePickerFormat.Short;
-            dtpHasta.Location = new Point(612, 9);
-            dtpHasta.Name = "dtpHasta";
-            dtpHasta.Size = new Size(120, 27);
-            dtpHasta.TabIndex = 5;
             // 
             // btnFiltrar
             // 
@@ -283,10 +239,6 @@
         private Panel pnlFiltros;
         private TextBox txtFiltroCliente;
         private ComboBox cmbFiltroEstado;
-        private CheckBox chkDesde;
-        private DateTimePicker dtpDesde;
-        private CheckBox chkHasta;
-        private DateTimePicker dtpHasta;
         private Button btnFiltrar;
         private Button btnLimpiar;
         private Label lblTit;

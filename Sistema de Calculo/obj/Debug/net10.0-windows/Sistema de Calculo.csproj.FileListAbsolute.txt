@@ -1,23 +1,3 @@
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.AssemblyReference.cache
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.FormLogin.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.FormMenu.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewMaterial.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewUser.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelCliente.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelCotizacion.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelFacturas.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelMateriales.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelNuevaCotizacion.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelNuevoCliente.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelNuevoMaterial.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelResetearContraseña.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelUsuario.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelVolumen.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.GenerateResource.cache
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.AssemblyInfoInputs.cache
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.AssemblyInfo.cs
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.CoreCompileInputs.cache
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Sistema de Calculo.exe
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Sistema de Calculo.deps.json
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Sistema de Calculo.runtimeconfig.json
@@ -33,6 +13,26 @@ C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net1
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\HelixToolkit.Wpf.dll
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.AssemblyReference.cache
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.Properties.Resources.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.FormLogin.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.FormMenu.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewClient.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewMaterial.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.Formnewquote.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewUser.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.Formresetpassword.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelCliente.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelCotizacion.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelFacturas.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelMateriales.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelUsuario.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelVolumen.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.GenerateResource.cache
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.AssemblyInfoInputs.cache
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.AssemblyInfo.cs
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.CoreCompileInputs.cache
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema .7A7BB0E5.Up2Date
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.dll
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\refint\Sistema de Calculo.dll

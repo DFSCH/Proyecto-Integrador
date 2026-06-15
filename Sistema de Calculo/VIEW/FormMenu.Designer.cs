@@ -98,7 +98,7 @@
             btnMateriales.Name = "btnMateriales";
             btnMateriales.Size = new Size(249, 39);
             btnMateriales.TabIndex = 10;
-            btnMateriales.Text = "Materiales";
+            btnMateriales.Text = "\U0001f9f1Materiales";
             btnMateriales.UseVisualStyleBackColor = true;
             btnMateriales.Click += btnMateriales_Click;
             // 
@@ -108,7 +108,7 @@
             btnUsuario.Name = "btnUsuario";
             btnUsuario.Size = new Size(249, 39);
             btnUsuario.TabIndex = 9;
-            btnUsuario.Text = "Usuario";
+            btnUsuario.Text = "🚹Usuario";
             btnUsuario.UseVisualStyleBackColor = true;
             btnUsuario.Click += btnUsuario_Click;
             // 
@@ -128,7 +128,7 @@
             btnCliente.Name = "btnCliente";
             btnCliente.Size = new Size(249, 39);
             btnCliente.TabIndex = 7;
-            btnCliente.Text = "Cliente";
+            btnCliente.Text = "🙍‍♂️Cliente";
             btnCliente.UseVisualStyleBackColor = true;
             btnCliente.Click += btnCliente_Click;
             // 
