@@ -172,7 +172,6 @@ namespace Sistema_de_Calculo.DATOS
             return campos.ToArray();
         }
 
-       
-        }
+      
     }
 }
