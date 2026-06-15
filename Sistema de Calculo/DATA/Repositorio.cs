@@ -171,5 +171,26 @@ namespace Sistema_de_Calculo.DATOS
             campos.Add(sb.ToString());
             return campos.ToArray();
         }
+
+        public (bool ok, string msg) EliminarUsuario(int id)
+        {
+            try
+            {
+                var usuarios = Repositorio.Cargar<User>("usuarios");
+
+                var usuario = usuarios.FirstOrDefault(u => u.Id == id);
+                if (usuario == null)
+                    return (false, "No se encontró el usuario.");
+
+                usuarios.Remove(usuario);
+                Repositorio.Guardar("usuarios", usuarios);
+
+                return (true, "Usuario eliminado correctamente.");
+            }
+            catch (Exception ex)
+            {
+                return (false, $"Error al eliminar: {ex.Message}");
+            }
+        }
     }
 }

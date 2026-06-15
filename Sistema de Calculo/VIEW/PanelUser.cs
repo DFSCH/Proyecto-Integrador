@@ -98,5 +98,34 @@ namespace Sistema_de_Calculo.VISTA
             using var frm = new Formresetpassword(_ctrl, id.Value);
             frm.ShowDialog(this);
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            var id = ObtenerIdSeleccionado();
+            if (id == null) return;
+
+            // Protección: no puedes eliminar tu propia cuenta
+            if (Sesion.UsuarioActivo?.Id == id.Value)
+            {
+                MessageBox.Show("No puedes eliminar tu propia cuenta.", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            var confirm = MessageBox.Show(
+                "¿Seguro que deseas eliminar este usuario? Esta acción no se puede deshacer.",
+                "Confirmar eliminación",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (confirm != DialogResult.Yes) return;
+
+            var (ok, msg) = _ctrl.EliminarUsuario(id.Value);
+            MessageBox.Show(msg, ok ? "Éxito" : "Error",
+                MessageBoxButtons.OK,
+                ok ? MessageBoxIcon.Information : MessageBoxIcon.Error);
+
+            if (ok) CargarTabla();
+        }
     }
 }

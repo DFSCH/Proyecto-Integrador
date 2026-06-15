@@ -113,6 +113,18 @@ namespace Sistema_de_Calculo.CONTROLADOR
             return (true, u.Activo ? "Usuario activado." : "Usuario desactivado.");
         }
 
+        // RF: eliminar usuario (borrado físico del CSV)
+        public (bool ok, string msg) EliminarUsuario(int usuarioId)
+        {
+            var lista = Repositorio.Cargar<User>(ARCHIVO);
+            var u = lista.FirstOrDefault(x => x.Id == usuarioId);
+            if (u == null) return (false, "Usuario no encontrado.");
+
+            lista.Remove(u);
+            Repositorio.Guardar(ARCHIVO, lista);
+            return (true, "Usuario eliminado correctamente.");
+        }
+
         // RF08 (consulta): lista de usuarios
         public List<User> ObtenerTodos() =>
             Repositorio.Cargar<User>(ARCHIVO);

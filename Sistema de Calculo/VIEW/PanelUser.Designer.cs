@@ -30,16 +30,16 @@
         {
             btnNuevo = new Button();
             dgv = new DataGridView();
-            lblTit = new Label();
-            btnToggle = new Button();
-            btnReset = new Button();
-            btnEliminar = new Button();
             Id = new DataGridViewTextBoxColumn();
             Nombre = new DataGridViewTextBoxColumn();
             Correo = new DataGridViewTextBoxColumn();
             Cargo = new DataGridViewTextBoxColumn();
             Estado = new DataGridViewTextBoxColumn();
             Fecha = new DataGridViewTextBoxColumn();
+            lblTit = new Label();
+            btnToggle = new Button();
+            btnReset = new Button();
+            btnEliminar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
             SuspendLayout();
             // 
@@ -68,6 +68,55 @@
             dgv.RowHeadersWidth = 51;
             dgv.Size = new Size(960, 546);
             dgv.TabIndex = 19;
+            // 
+            // Id
+            // 
+            Id.FillWeight = 5F;
+            Id.HeaderText = "ID";
+            Id.MinimumWidth = 6;
+            Id.Name = "Id";
+            Id.Visible = false;
+            Id.Width = 125;
+            // 
+            // Nombre
+            // 
+            Nombre.FillWeight = 25F;
+            Nombre.HeaderText = "Nombre";
+            Nombre.MinimumWidth = 6;
+            Nombre.Name = "Nombre";
+            Nombre.Width = 125;
+            // 
+            // Correo
+            // 
+            Correo.FillWeight = 40F;
+            Correo.HeaderText = "Correo";
+            Correo.MinimumWidth = 6;
+            Correo.Name = "Correo";
+            Correo.Width = 125;
+            // 
+            // Cargo
+            // 
+            Cargo.FillWeight = 15F;
+            Cargo.HeaderText = "Cargo";
+            Cargo.MinimumWidth = 6;
+            Cargo.Name = "Cargo";
+            Cargo.Width = 125;
+            // 
+            // Estado
+            // 
+            Estado.FillWeight = 12F;
+            Estado.HeaderText = "Estado";
+            Estado.MinimumWidth = 6;
+            Estado.Name = "Estado";
+            Estado.Width = 125;
+            // 
+            // Fecha
+            // 
+            Fecha.FillWeight = 13F;
+            Fecha.HeaderText = "Creado";
+            Fecha.MinimumWidth = 6;
+            Fecha.Name = "Fecha";
+            Fecha.Width = 125;
             // 
             // lblTit
             // 
@@ -118,55 +167,7 @@
             btnEliminar.TabIndex = 23;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // Id
-            // 
-            Id.FillWeight = 5F;
-            Id.HeaderText = "ID";
-            Id.MinimumWidth = 6;
-            Id.Name = "Id";
-            Id.Visible = false;
-            Id.Width = 125;
-            // 
-            // Nombre
-            // 
-            Nombre.FillWeight = 25F;
-            Nombre.HeaderText = "Nombre";
-            Nombre.MinimumWidth = 6;
-            Nombre.Name = "Nombre";
-            Nombre.Width = 125;
-            // 
-            // Correo
-            // 
-            Correo.FillWeight = 40F;
-            Correo.HeaderText = "Correo";
-            Correo.MinimumWidth = 6;
-            Correo.Name = "Correo";
-            Correo.Width = 125;
-            // 
-            // Cargo
-            // 
-            Cargo.FillWeight = 15F;
-            Cargo.HeaderText = "Cargo";
-            Cargo.MinimumWidth = 6;
-            Cargo.Name = "Cargo";
-            Cargo.Width = 125;
-            // 
-            // Estado
-            // 
-            Estado.FillWeight = 12F;
-            Estado.HeaderText = "Estado";
-            Estado.MinimumWidth = 6;
-            Estado.Name = "Estado";
-            Estado.Width = 125;
-            // 
-            // Fecha
-            // 
-            Fecha.FillWeight = 13F;
-            Fecha.HeaderText = "Creado";
-            Fecha.MinimumWidth = 6;
-            Fecha.Name = "Fecha";
-            Fecha.Width = 125;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // PanelUser
             // 

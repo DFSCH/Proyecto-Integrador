@@ -22,12 +22,8 @@ C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net1
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.Formnewquote.resources
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewUser.resources
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.Formresetpassword.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelCliente.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelCotizacion.resources
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelFacturas.resources
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelMateriales.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelUsuario.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelVolumen.resources
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.GenerateResource.cache
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.AssemblyInfoInputs.cache
@@ -39,3 +35,7 @@ C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net1
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.pdb
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.genruntimeconfig.cache
 C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\ref\Sistema de Calculo.dll
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelClient.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.Panelquotation.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelUser.resources
+C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelVolume.resources
