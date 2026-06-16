@@ -1,16 +1,9 @@
-﻿namespace Sistema_de_Calculo.VISTA
+namespace Sistema_de_Calculo.VISTA
 {
     partial class PanelVolume
     {
-        /// <summary> 
-        /// Variable del diseñador necesaria.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary> 
-        /// Limpiar los recursos que se estén usando.
-        /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +15,6 @@
 
         #region Código generado por el Diseñador de componentes
 
-        /// <summary> 
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
-        /// </summary>
         private void InitializeComponent()
         {
             card4 = new Panel();
@@ -46,12 +35,16 @@
             txtY = new TextBox();
             lblZ = new Label();
             txtZ = new TextBox();
+            lblTipo = new Label();
+            cmbTipo = new ComboBox();
             btnAgregar = new Button();
             dgvPuntos = new DataGridView();
             colX = new DataGridViewTextBoxColumn();
             colY = new DataGridViewTextBoxColumn();
             colZ = new DataGridViewTextBoxColumn();
+            colTipo = new DataGridViewTextBoxColumn();
             btnEliminar = new Button();
+            lblLeyenda = new Label();
             lblTit = new Label();
             card4.SuspendLayout();
             card2.SuspendLayout();
@@ -86,9 +79,9 @@
             card2.Controls.Add(lblCard2);
             card2.Controls.Add(cmbMetodo);
             card2.Controls.Add(btnCalcular);
-            card2.Location = new Point(8, 412);
+            card2.Location = new Point(8, 486);
             card2.Name = "card2";
-            card2.Size = new Size(410, 141);
+            card2.Size = new Size(410, 100);
             card2.TabIndex = 8;
             // 
             // lblCard2
@@ -106,7 +99,7 @@
             // 
             cmbMetodo.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbMetodo.Items.AddRange(new object[] { "Simpson 1/3 doble", "Trapezoidal compuesto", "Riemann (suma)" });
-            cmbMetodo.Location = new Point(14, 46);
+            cmbMetodo.Location = new Point(14, 40);
             cmbMetodo.Name = "cmbMetodo";
             cmbMetodo.Size = new Size(220, 28);
             cmbMetodo.TabIndex = 0;
@@ -118,7 +111,7 @@
             btnCalcular.FlatAppearance.BorderSize = 0;
             btnCalcular.FlatStyle = FlatStyle.Flat;
             btnCalcular.ForeColor = Color.White;
-            btnCalcular.Location = new Point(244, 42);
+            btnCalcular.Location = new Point(244, 36);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(150, 34);
             btnCalcular.TabIndex = 1;
@@ -132,9 +125,9 @@
             card3.Controls.Add(lblCard3);
             card3.Controls.Add(lblResultado);
             card3.Controls.Add(btnUsarEnCot);
-            card3.Location = new Point(8, 559);
+            card3.Location = new Point(8, 592);
             card3.Name = "card3";
-            card3.Size = new Size(410, 109);
+            card3.Size = new Size(410, 106);
             card3.TabIndex = 9;
             // 
             // lblCard3
@@ -153,7 +146,7 @@
             lblResultado.AutoSize = true;
             lblResultado.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
             lblResultado.ForeColor = Color.FromArgb(24, 95, 165);
-            lblResultado.Location = new Point(14, 40);
+            lblResultado.Location = new Point(14, 36);
             lblResultado.Name = "lblResultado";
             lblResultado.Size = new Size(48, 41);
             lblResultado.TabIndex = 0;
@@ -167,7 +160,7 @@
             btnUsarEnCot.FlatAppearance.BorderSize = 0;
             btnUsarEnCot.FlatStyle = FlatStyle.Flat;
             btnUsarEnCot.ForeColor = Color.White;
-            btnUsarEnCot.Location = new Point(236, 40);
+            btnUsarEnCot.Location = new Point(236, 36);
             btnUsarEnCot.Name = "btnUsarEnCot";
             btnUsarEnCot.Size = new Size(158, 37);
             btnUsarEnCot.TabIndex = 1;
@@ -185,12 +178,15 @@
             card1.Controls.Add(txtY);
             card1.Controls.Add(lblZ);
             card1.Controls.Add(txtZ);
+            card1.Controls.Add(lblTipo);
+            card1.Controls.Add(cmbTipo);
             card1.Controls.Add(btnAgregar);
             card1.Controls.Add(dgvPuntos);
             card1.Controls.Add(btnEliminar);
+            card1.Controls.Add(lblLeyenda);
             card1.Location = new Point(8, 68);
             card1.Name = "card1";
-            card1.Size = new Size(410, 338);
+            card1.Size = new Size(410, 412);
             card1.TabIndex = 7;
             // 
             // lblCard1
@@ -219,14 +215,14 @@
             txtX.BorderStyle = BorderStyle.FixedSingle;
             txtX.Location = new Point(14, 62);
             txtX.Name = "txtX";
-            txtX.Size = new Size(80, 27);
+            txtX.Size = new Size(70, 27);
             txtX.TabIndex = 1;
             // 
             // lblY
             // 
             lblY.AutoSize = true;
             lblY.ForeColor = Color.Gray;
-            lblY.Location = new Point(102, 44);
+            lblY.Location = new Point(90, 44);
             lblY.Name = "lblY";
             lblY.Size = new Size(44, 20);
             lblY.TabIndex = 2;
@@ -235,16 +231,16 @@
             // txtY
             // 
             txtY.BorderStyle = BorderStyle.FixedSingle;
-            txtY.Location = new Point(102, 62);
+            txtY.Location = new Point(90, 62);
             txtY.Name = "txtY";
-            txtY.Size = new Size(80, 27);
+            txtY.Size = new Size(70, 27);
             txtY.TabIndex = 3;
             // 
             // lblZ
             // 
             lblZ.AutoSize = true;
             lblZ.ForeColor = Color.Gray;
-            lblZ.Location = new Point(190, 44);
+            lblZ.Location = new Point(166, 44);
             lblZ.Name = "lblZ";
             lblZ.Size = new Size(45, 20);
             lblZ.TabIndex = 4;
@@ -253,10 +249,29 @@
             // txtZ
             // 
             txtZ.BorderStyle = BorderStyle.FixedSingle;
-            txtZ.Location = new Point(190, 62);
+            txtZ.Location = new Point(166, 62);
             txtZ.Name = "txtZ";
-            txtZ.Size = new Size(80, 27);
+            txtZ.Size = new Size(70, 27);
             txtZ.TabIndex = 5;
+            // 
+            // lblTipo
+            // 
+            lblTipo.AutoSize = true;
+            lblTipo.ForeColor = Color.Gray;
+            lblTipo.Location = new Point(242, 44);
+            lblTipo.Name = "lblTipo";
+            lblTipo.Size = new Size(39, 20);
+            lblTipo.TabIndex = 10;
+            lblTipo.Text = "Tipo";
+            // 
+            // cmbTipo
+            // 
+            cmbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbTipo.Items.AddRange(new object[] { "Interno", "Externo" });
+            cmbTipo.Location = new Point(242, 62);
+            cmbTipo.Name = "cmbTipo";
+            cmbTipo.Size = new Size(90, 28);
+            cmbTipo.TabIndex = 11;
             // 
             // btnAgregar
             // 
@@ -265,11 +280,11 @@
             btnAgregar.FlatAppearance.BorderSize = 0;
             btnAgregar.FlatStyle = FlatStyle.Flat;
             btnAgregar.ForeColor = Color.White;
-            btnAgregar.Location = new Point(280, 60);
+            btnAgregar.Location = new Point(340, 60);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(110, 28);
+            btnAgregar.Size = new Size(58, 28);
             btnAgregar.TabIndex = 6;
-            btnAgregar.Text = "+ Agregar";
+            btnAgregar.Text = "+ Add";
             btnAgregar.UseVisualStyleBackColor = false;
             btnAgregar.Click += btnAgregar_Click;
             // 
@@ -279,14 +294,14 @@
             dgvPuntos.BackgroundColor = Color.White;
             dgvPuntos.ColumnHeadersHeight = 26;
             dgvPuntos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dgvPuntos.Columns.AddRange(new DataGridViewColumn[] { colX, colY, colZ });
+            dgvPuntos.Columns.AddRange(new DataGridViewColumn[] { colX, colY, colZ, colTipo });
             dgvPuntos.GridColor = Color.FromArgb(230, 230, 230);
             dgvPuntos.Location = new Point(14, 96);
             dgvPuntos.Name = "dgvPuntos";
             dgvPuntos.ReadOnly = true;
             dgvPuntos.RowHeadersWidth = 51;
             dgvPuntos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvPuntos.Size = new Size(376, 190);
+            dgvPuntos.Size = new Size(376, 218);
             dgvPuntos.TabIndex = 7;
             // 
             // colX
@@ -295,7 +310,7 @@
             colX.MinimumWidth = 6;
             colX.Name = "colX";
             colX.ReadOnly = true;
-            colX.Width = 90;
+            colX.Width = 76;
             // 
             // colY
             // 
@@ -303,7 +318,7 @@
             colY.MinimumWidth = 6;
             colY.Name = "colY";
             colY.ReadOnly = true;
-            colY.Width = 90;
+            colY.Width = 76;
             // 
             // colZ
             // 
@@ -311,7 +326,15 @@
             colZ.MinimumWidth = 6;
             colZ.Name = "colZ";
             colZ.ReadOnly = true;
-            colZ.Width = 90;
+            colZ.Width = 76;
+            // 
+            // colTipo
+            // 
+            colTipo.HeaderText = "Tipo";
+            colTipo.MinimumWidth = 6;
+            colTipo.Name = "colTipo";
+            colTipo.ReadOnly = true;
+            colTipo.Width = 90;
             // 
             // btnEliminar
             // 
@@ -320,13 +343,23 @@
             btnEliminar.FlatAppearance.BorderColor = Color.FromArgb(200, 200, 200);
             btnEliminar.FlatStyle = FlatStyle.Flat;
             btnEliminar.ForeColor = Color.FromArgb(60, 60, 60);
-            btnEliminar.Location = new Point(12, 292);
+            btnEliminar.Location = new Point(12, 322);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(170, 28);
             btnEliminar.TabIndex = 8;
             btnEliminar.Text = "Eliminar seleccionado";
             btnEliminar.UseVisualStyleBackColor = false;
             btnEliminar.Click += btnEliminar_Click;
+            // 
+            // lblLeyenda
+            // 
+            lblLeyenda.Font = new Font("Segoe UI", 8.5F);
+            lblLeyenda.ForeColor = Color.FromArgb(80, 80, 80);
+            lblLeyenda.Location = new Point(12, 354);
+            lblLeyenda.Name = "lblLeyenda";
+            lblLeyenda.Size = new Size(349, 29);
+            lblLeyenda.TabIndex = 12;
+            lblLeyenda.Text = "  \U0001f7e2 Externo = perímetro del terreno   🔴 Interno = punto de control";
             // 
             // lblTit
             // 
@@ -339,7 +372,7 @@
             lblTit.TabIndex = 10;
             lblTit.Text = "Cálculo de volumen — integrales dobles";
             // 
-            // PanelVolumen
+            // PanelVolume
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -348,7 +381,7 @@
             Controls.Add(card3);
             Controls.Add(card1);
             Controls.Add(card4);
-            Name = "PanelVolumen";
+            Name = "PanelVolume";
             Size = new Size(1273, 711);
             card4.ResumeLayout(false);
             card4.PerformLayout();
@@ -383,12 +416,16 @@
         private TextBox txtY;
         private Label lblZ;
         private TextBox txtZ;
+        private Label lblTipo;
+        private ComboBox cmbTipo;
         private Button btnAgregar;
         private DataGridView dgvPuntos;
         private DataGridViewTextBoxColumn colX;
         private DataGridViewTextBoxColumn colY;
         private DataGridViewTextBoxColumn colZ;
+        private DataGridViewTextBoxColumn colTipo;
         private Button btnEliminar;
         private Label lblTit;
+        private Label lblLeyenda;
     }
 }

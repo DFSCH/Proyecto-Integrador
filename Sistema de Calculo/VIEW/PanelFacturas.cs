@@ -19,11 +19,11 @@ namespace Sistema_de_Calculo.VISTA
         public PanelFacturas()
         {
             InitializeComponent();
-            // Conectar checkboxes con datepickers
             
+
             // Selección inicial del combo
             cmbFiltroEstado.SelectedIndex = 0;
-            btnEstado.Enabled = Sesion.EsAdmin;
+            btnEstado.Visible = Sesion.EsAdmin;   
             Cargar();
         }
 
@@ -33,9 +33,9 @@ namespace Sistema_de_Calculo.VISTA
 
             string? estado = cmbFiltroEstado.SelectedItem?.ToString() == "Todos"
                 ? null : cmbFiltroEstado.SelectedItem?.ToString();
-           
 
-            var facs = _docCtrl.FiltrarFacturas(txtFiltroCliente.Text);
+
+            var facs = _docCtrl.FiltrarFacturas(txtFiltroCliente.Text, estado);
             var clientes = _cliCtrl.ObtenerTodos();
             var cots = _docCtrl.ObtenerCotizaciones();
 
@@ -74,7 +74,7 @@ namespace Sistema_de_Calculo.VISTA
         {
             txtFiltroCliente.Clear();
             cmbFiltroEstado.SelectedIndex = 0;
-        
+
             Cargar();
         }
 
@@ -105,6 +105,28 @@ namespace Sistema_de_Calculo.VISTA
             var mat = cot != null ? _matCtrl.ObtenerPorId(cot.MaterialId) : null;
 
             Impresora.ImprimirFactura(fac, cot, cl, mat);
+        }
+
+        private void btnEliminarFact_Click(object sender, EventArgs e)
+        {
+            var id = IdSeleccionado();
+            if (id == null) return;
+
+            var confirm = MessageBox.Show(
+                "¿Seguro que deseas eliminar esta factura? Esta acción no se puede deshacer.",
+                "Confirmar eliminación",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (confirm != DialogResult.Yes) return;
+
+            var (ok, msg) = _docCtrl.EliminarFactura(id.Value);
+            MessageBox.Show(msg,
+                ok ? "Éxito" : "Error",
+                MessageBoxButtons.OK,
+                ok ? MessageBoxIcon.Information : MessageBoxIcon.Error);
+
+            if (ok) Cargar();
         }
     }
 }

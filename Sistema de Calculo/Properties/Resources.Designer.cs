@@ -69,5 +69,25 @@ namespace Sistema_de_Calculo.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_6zg58v6zg58v6zg5_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_6zg58v6zg58v6zg5-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2026_06_15_at_9_50_36_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2026-06-15 at 9.50.36 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

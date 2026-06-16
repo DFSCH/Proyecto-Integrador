@@ -44,6 +44,7 @@
             Total = new DataGridViewTextBoxColumn();
             Estado = new DataGridViewTextBoxColumn();
             Fecha = new DataGridViewTextBoxColumn();
+            btnEliminarFact = new Button();
             pnlFiltros.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
             SuspendLayout();
@@ -126,7 +127,7 @@
             btnEstado.FlatAppearance.BorderColor = Color.FromArgb(200, 200, 200);
             btnEstado.FlatStyle = FlatStyle.Flat;
             btnEstado.ForeColor = Color.FromArgb(60, 60, 60);
-            btnEstado.Location = new Point(27, 83);
+            btnEstado.Location = new Point(163, 84);
             btnEstado.Name = "btnEstado";
             btnEstado.Size = new Size(140, 28);
             btnEstado.TabIndex = 6;
@@ -141,7 +142,7 @@
             btnPDF.FlatAppearance.BorderColor = Color.FromArgb(200, 200, 200);
             btnPDF.FlatStyle = FlatStyle.Flat;
             btnPDF.ForeColor = Color.FromArgb(60, 60, 60);
-            btnPDF.Location = new Point(175, 83);
+            btnPDF.Location = new Point(27, 84);
             btnPDF.Name = "btnPDF";
             btnPDF.Size = new Size(130, 28);
             btnPDF.TabIndex = 7;
@@ -216,10 +217,26 @@
             Fecha.Name = "Fecha";
             Fecha.Width = 125;
             // 
+            // btnEliminarFact
+            // 
+            btnEliminarFact.BackColor = Color.White;
+            btnEliminarFact.Cursor = Cursors.Hand;
+            btnEliminarFact.FlatAppearance.BorderColor = Color.FromArgb(200, 200, 200);
+            btnEliminarFact.FlatStyle = FlatStyle.Flat;
+            btnEliminarFact.ForeColor = Color.FromArgb(60, 60, 60);
+            btnEliminarFact.Location = new Point(810, 84);
+            btnEliminarFact.Name = "btnEliminarFact";
+            btnEliminarFact.Size = new Size(130, 28);
+            btnEliminarFact.TabIndex = 20;
+            btnEliminarFact.Text = "Eliminar";
+            btnEliminarFact.UseVisualStyleBackColor = false;
+            btnEliminarFact.Click += btnEliminarFact_Click;
+            // 
             // PanelFacturas
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnEliminarFact);
             Controls.Add(dgv);
             Controls.Add(lblTit);
             Controls.Add(btnEstado);
@@ -252,5 +269,6 @@
         private DataGridViewTextBoxColumn Total;
         private DataGridViewTextBoxColumn Estado;
         private DataGridViewTextBoxColumn Fecha;
+        private Button btnEliminarFact;
     }
 }

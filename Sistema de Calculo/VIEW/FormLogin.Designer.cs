@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblTitulo = new Label();
             lblSub = new Label();
             pnlCard = new Panel();
             btnVerClave = new Button();
@@ -43,22 +42,11 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // lblTitulo
-            // 
-            lblTitulo.AutoSize = true;
-            lblTitulo.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            lblTitulo.ForeColor = Color.FromArgb(30, 30, 30);
-            lblTitulo.Location = new Point(196, 144);
-            lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(213, 35);
-            lblTitulo.TabIndex = 4;
-            lblTitulo.Text = "GeoVolumen Pro";
-            // 
             // lblSub
             // 
             lblSub.AutoSize = true;
             lblSub.ForeColor = Color.Gray;
-            lblSub.Location = new Point(136, 179);
+            lblSub.Location = new Point(146, 194);
             lblSub.Name = "lblSub";
             lblSub.Size = new Size(310, 20);
             lblSub.TabIndex = 5;
@@ -102,7 +90,7 @@
             // txtCorreo
             // 
             txtCorreo.BorderStyle = BorderStyle.FixedSingle;
-            txtCorreo.Location = new Point(20, 42);
+            txtCorreo.Location = new Point(20, 45);
             txtCorreo.Name = "txtCorreo";
             txtCorreo.Size = new Size(358, 27);
             txtCorreo.TabIndex = 1;
@@ -155,10 +143,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.Gemini_Generated_Image_61edvm61edvm61ed;
-            pictureBox1.Location = new Point(196, 3);
+            pictureBox1.Image = Properties.Resources.Gemini_Generated_Image_6zg58v6zg58v6zg5_removebg_preview;
+            pictureBox1.Location = new Point(182, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(228, 138);
+            pictureBox1.Size = new Size(227, 173);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
@@ -169,7 +157,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(595, 595);
             Controls.Add(pictureBox1);
-            Controls.Add(lblTitulo);
             Controls.Add(lblSub);
             Controls.Add(pnlCard);
             Name = "FormLogin";
@@ -182,8 +169,6 @@
         }
 
         #endregion
-
-        private Label lblTitulo;
         private Label lblSub;
         private Panel pnlCard;
         private Label lblCorreo;

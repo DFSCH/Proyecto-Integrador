@@ -118,5 +118,32 @@ namespace Sistema_de_Calculo.CONTROLADOR
             Repositorio.Guardar(ARCH_FAC, lista);
             return (true, $"Estado cambiado a {fac.Estado}.");
         }
+        public (bool ok, string msg) EliminarFactura(int id)
+        {
+            var lista = Repositorio.Cargar<Factura>(ARCH_FAC);
+            var fac = lista.FirstOrDefault(f => f.Id == id);
+            if (fac == null)
+                return (false, "No se encontró la factura.");
+
+            lista.Remove(fac);
+            Repositorio.Guardar(ARCH_FAC, lista);
+            return (true, "Factura eliminada correctamente.");
+        }
+
+        public (bool ok, string msg) EliminarCotizacion(int id)
+        {
+            var facs = Repositorio.Cargar<Factura>(ARCH_FAC);
+            if (facs.Any(f => f.CotizacionId == id))
+                return (false, "No se puede eliminar: la cotización ya tiene una factura asociada.");
+
+            var lista = Repositorio.Cargar<Cotizacion>(ARCH_COT);
+            var cot = lista.FirstOrDefault(c => c.Id == id);
+            if (cot == null)
+                return (false, "No se encontró la cotización.");
+
+            lista.Remove(cot);
+            Repositorio.Guardar(ARCH_COT, lista);
+            return (true, "Cotización eliminada correctamente.");
+        }
     }
 }

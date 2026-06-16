@@ -1,17 +1,20 @@
 namespace Sistema_de_Calculo.MODELOS
 {
+    public enum TipoPunto { Interno, Externo }
+
     public class PuntoTerreno
     {
         public double X { get; set; }
         public double Y { get; set; }
         public double Z { get; set; }
+        public TipoPunto Tipo { get; set; } = TipoPunto.Interno;
 
         public PuntoTerreno() { }
-        public PuntoTerreno(double x, double y, double z)
+        public PuntoTerreno(double x, double y, double z, TipoPunto tipo = TipoPunto.Interno)
         {
-            X = x; Y = y; Z = z;
+            X = x; Y = y; Z = z; Tipo = tipo;
         }
-        public override string ToString() => $"{X};{Y};{Z}";
+        public override string ToString() => $"{X};{Y};{Z};{Tipo}";
     }
 
     public class Terrain

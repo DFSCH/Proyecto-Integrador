@@ -33,7 +33,8 @@
             txtCosto = new TextBox();
             label2 = new Label();
             txtNombre = new TextBox();
-            label1 = new Label();
+            label1 = new Label(); 
+            SuspendLayout();
 
             // 
             // btnEliminar
@@ -118,5 +119,6 @@
         private Label label2;
         private TextBox txtNombre;
         private Label label1;
+
     }
 } // <-- Agregada la llave de cierre que faltaba para el namespace

@@ -35,6 +35,7 @@
             Id = new DataGridViewTextBoxColumn();
             Nombre = new DataGridViewTextBoxColumn();
             Costo = new DataGridViewTextBoxColumn();
+            btnEliminarMaterial = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -115,15 +116,31 @@
             Costo.Name = "Costo";
             Costo.Width = 125;
             // 
-            // PanelMateriales_Usuario
+            // btnEliminarMaterial
+            // 
+            btnEliminarMaterial.BackColor = Color.White;
+            btnEliminarMaterial.Cursor = Cursors.Hand;
+            btnEliminarMaterial.FlatAppearance.BorderColor = Color.FromArgb(200, 200, 200);
+            btnEliminarMaterial.FlatStyle = FlatStyle.Flat;
+            btnEliminarMaterial.ForeColor = Color.FromArgb(60, 60, 60);
+            btnEliminarMaterial.Location = new Point(629, 39);
+            btnEliminarMaterial.Name = "btnEliminarMaterial";
+            btnEliminarMaterial.Size = new Size(130, 30);
+            btnEliminarMaterial.TabIndex = 22;
+            btnEliminarMaterial.Text = "Eliminar";
+            btnEliminarMaterial.UseVisualStyleBackColor = false;
+            btnEliminarMaterial.Click += btnEliminarMaterial_Click;
+            // 
+            // PanelMateriales
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnEliminarMaterial);
             Controls.Add(dataGridView1);
             Controls.Add(lblTit);
             Controls.Add(btnNuevo);
             Controls.Add(dgv);
-            Name = "PanelMateriales_Usuario";
+            Name = "PanelMateriales";
             Size = new Size(994, 651);
             ((System.ComponentModel.ISupportInitialize)dgv).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -140,5 +157,6 @@
         private DataGridViewTextBoxColumn Id;
         private DataGridViewTextBoxColumn Nombre;
         private DataGridViewTextBoxColumn Costo;
+        private Button btnEliminarMaterial;
     }
 }

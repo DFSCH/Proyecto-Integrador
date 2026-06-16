@@ -1,4 +1,5 @@
 ﻿using Sistema_de_Calculo.CONTROLADOR;
+using Sistema_de_Calculo.UTILIDADES;
 using Sistema_de_Calculo.VIEW;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,7 @@ namespace Sistema_de_Calculo.VISTA
         {
             InitializeComponent();
             Cargar();
+            btnEliminarMaterial.Visible = Sesion.EsAdmin;
         }
 
         // ── Carga de datos ────────────────────────────────────────────
@@ -41,6 +43,36 @@ namespace Sistema_de_Calculo.VISTA
 
             ventana.OperacionCancelada += (s, ev) => ventana.Close();
             ventana.ShowDialog(this);
+        }
+
+        //  ── Botón Eliminar Material ────────────────────────────────────
+
+        private void btnEliminarMaterial_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.CurrentRow == null)
+            {
+                MessageBox.Show("Selecciona un material.", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            int id = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+
+            var confirm = MessageBox.Show(
+                "¿Seguro que deseas eliminar este material? Esta acción no se puede deshacer.",
+                "Confirmar eliminación",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (confirm != DialogResult.Yes) return;
+
+            var (ok, msg) = _ctrl.EliminarMaterial(id);
+            MessageBox.Show(msg,
+                ok ? "Éxito" : "Error",
+                MessageBoxButtons.OK,
+                ok ? MessageBoxIcon.Information : MessageBoxIcon.Error);
+
+            if (ok) Cargar();
         }
     }
 }

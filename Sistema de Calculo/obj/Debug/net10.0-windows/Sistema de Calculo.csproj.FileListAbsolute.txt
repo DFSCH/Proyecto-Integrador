@@ -1,41 +1,41 @@
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Sistema de Calculo.exe
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Sistema de Calculo.deps.json
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Sistema de Calculo.runtimeconfig.json
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Sistema de Calculo.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Sistema de Calculo.pdb
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\BCrypt-Net-Next.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\CommunityToolkit.Common.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\CommunityToolkit.Diagnostics.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\CommunityToolkit.Mvvm.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\HelixToolkit.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\HelixToolkit.Geometry.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\HelixToolkit.Maths.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\HelixToolkit.Wpf.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.AssemblyReference.cache
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.Properties.Resources.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.FormLogin.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.FormMenu.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewClient.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewMaterial.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.Formnewquote.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewUser.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.Formresetpassword.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelFacturas.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelMateriales.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.GenerateResource.cache
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.AssemblyInfoInputs.cache
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.AssemblyInfo.cs
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.CoreCompileInputs.cache
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema .7A7BB0E5.Up2Date
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\refint\Sistema de Calculo.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.pdb
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema de Calculo.genruntimeconfig.cache
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\ref\Sistema de Calculo.dll
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelClient.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.Panelquotation.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelUser.resources
-C:\Users\dfsch\source\repos\Sistema de Calculo\Sistema de Calculo\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelVolume.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\Sistema de Calculo.exe
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\Sistema de Calculo.deps.json
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\Sistema de Calculo.runtimeconfig.json
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\Sistema de Calculo.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\Sistema de Calculo.pdb
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\BCrypt-Net-Next.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\CommunityToolkit.Common.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\CommunityToolkit.Diagnostics.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\HelixToolkit.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\HelixToolkit.Geometry.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\HelixToolkit.Maths.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\HelixToolkit.Wpf.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.AssemblyReference.cache
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.Properties.Resources.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.FormLogin.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.FormMenu.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewClient.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewMaterial.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.Formnewquote.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.FormNewUser.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VIEW.Formresetpassword.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelClient.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelFacturas.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelMateriales.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.Panelquotation.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelUser.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema_de_Calculo.VISTA.PanelVolume.resources
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.GenerateResource.cache
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema de Calculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema de Calculo.AssemblyInfoInputs.cache
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema de Calculo.AssemblyInfo.cs
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema de Calculo.csproj.CoreCompileInputs.cache
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema .7A7BB0E5.Up2Date
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema de Calculo.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\refint\Sistema de Calculo.dll
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema de Calculo.pdb
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\Sistema de Calculo.genruntimeconfig.cache
+C:\Users\dfsch\Downloads\lina\Sistema_de_Calculov6_4\output_project\obj\Debug\net10.0-windows\ref\Sistema de Calculo.dll

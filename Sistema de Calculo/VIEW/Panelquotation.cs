@@ -20,8 +20,9 @@ namespace Sistema_de_Calculo.VISTA
         public Panelquotation()
         {
             InitializeComponent();
-            btnEstado.Enabled = Sesion.EsAdmin;
+            btnEstado.Visible = Sesion.EsAdmin;    // antes era .Enabled → ahora desaparece para usuario
             btnFactura.Enabled = Sesion.EsAdmin;
+
             Cargar();
         }
 
@@ -108,6 +109,28 @@ namespace Sistema_de_Calculo.VISTA
                 cot,
                 _cliCtrl.ObtenerPorId(cot.ClienteId),
                 _matCtrl.ObtenerPorId(cot.MaterialId));
+        }
+
+        private void btnEliminarCot_Click(object sender, EventArgs e)
+        {
+            var id = IdSeleccionado();
+            if (id == null) return;
+
+            var confirm = MessageBox.Show(
+                "¿Seguro que deseas eliminar esta cotización? Esta acción no se puede deshacer.",
+                "Confirmar eliminación",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (confirm != DialogResult.Yes) return;
+
+            var (ok, msg) = _docCtrl.EliminarCotizacion(id.Value);
+            MessageBox.Show(msg,
+                ok ? "Éxito" : "Error",
+                MessageBoxButtons.OK,
+                ok ? MessageBoxIcon.Information : MessageBoxIcon.Error);
+
+            if (ok) Cargar();
         }
     }
 }

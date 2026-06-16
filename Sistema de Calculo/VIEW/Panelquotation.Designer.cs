@@ -42,6 +42,7 @@
             Costo = new DataGridViewTextBoxColumn();
             Estado = new DataGridViewTextBoxColumn();
             Fecha = new DataGridViewTextBoxColumn();
+            btnEliminarCot = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
             SuspendLayout();
             // 
@@ -192,17 +193,33 @@
             Fecha.Name = "Fecha";
             Fecha.Width = 125;
             // 
-            // PanelCotizacion
+            // btnEliminarCot
+            // 
+            btnEliminarCot.BackColor = Color.White;
+            btnEliminarCot.Cursor = Cursors.Hand;
+            btnEliminarCot.FlatAppearance.BorderColor = Color.FromArgb(200, 200, 200);
+            btnEliminarCot.FlatStyle = FlatStyle.Flat;
+            btnEliminarCot.ForeColor = Color.FromArgb(60, 60, 60);
+            btnEliminarCot.Location = new Point(854, 43);
+            btnEliminarCot.Name = "btnEliminarCot";
+            btnEliminarCot.Size = new Size(130, 30);
+            btnEliminarCot.TabIndex = 21;
+            btnEliminarCot.Text = "Eliminar";
+            btnEliminarCot.UseVisualStyleBackColor = false;
+            btnEliminarCot.Click += btnEliminarCot_Click;
+            // 
+            // Panelquotation
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnEliminarCot);
             Controls.Add(dgv);
             Controls.Add(lblTit);
             Controls.Add(btnPDF);
             Controls.Add(btnEstado);
             Controls.Add(btnFactura);
             Controls.Add(btnNueva);
-            Name = "PanelCotizacion";
+            Name = "Panelquotation";
             Size = new Size(1049, 703);
             ((System.ComponentModel.ISupportInitialize)dgv).EndInit();
             ResumeLayout(false);
@@ -225,5 +242,6 @@
         private DataGridViewTextBoxColumn Costo;
         private DataGridViewTextBoxColumn Estado;
         private DataGridViewTextBoxColumn Fecha;
+        private Button btnEliminarCot;
     }
 }

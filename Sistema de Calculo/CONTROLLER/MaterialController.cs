@@ -29,6 +29,24 @@ namespace Sistema_de_Calculo.CONTROLADOR
             return (true, "Material registrado correctamente.");
         }
 
+        // RF: eliminar material (borrado físico del CSV)
+        public (bool ok, string msg) EliminarMaterial(int id)
+        {
+            // Evita dejar cotizaciones huérfanas
+            var cots = Repositorio.Cargar<Cotizacion>("cotizaciones");
+            if (cots.Any(c => c.MaterialId == id))
+                return (false, "No se puede eliminar: el material está usado en una o más cotizaciones.");
+
+            var lista = Repositorio.Cargar<Material>(ARCHIVO);
+            var mat = lista.FirstOrDefault(m => m.Id == id);
+            if (mat == null)
+                return (false, "No se encontró el material.");
+
+            lista.Remove(mat);
+            Repositorio.Guardar(ARCHIVO, lista);
+            return (true, "Material eliminado correctamente.");
+        }
+
         public List<Material> ObtenerTodos() =>
             Repositorio.Cargar<Material>(ARCHIVO);
 
